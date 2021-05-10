@@ -39,17 +39,6 @@ Wire Wire Line
 	6507 4195 6572 4195
 Wire Wire Line
 	6507 4229 6507 4195
-$Comp
-L Bluetooth:HC05 .2
-U 1 1 609A3B43
-P 4435 3905
-F 0 ".2" H 4435 3855 50  0000 L CNN
-F 1 "HC05" H 4385 3905 20  0000 L CNN
-F 2 "" H 4435 3905 50  0001 C CNN
-F 3 "" H 4435 3905 50  0001 C CNN
-	1    4435 3905
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6955 3277 6934 3277
 Wire Wire Line
@@ -164,17 +153,6 @@ Wire Wire Line
 	4639 4120 4087 4120
 Wire Wire Line
 	4639 4354 4639 4120
-$Comp
-L Arduino~Kartları:ArduinoUnoR3 .
-U 1 1 609B126E
-P 5985 4355
-F 0 "." H 7330 5126 50  0000 L CNN
-F 1 "ArduinoUnoR3" H 7330 5035 50  0000 L CNN
-F 2 "" H 6735 5180 50  0001 C CNN
-F 3 "" H 6735 5180 50  0001 C CNN
-	1    5985 4355
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4883 3805 4863 3805
 Wire Wire Line
@@ -192,23 +170,11 @@ Wire Wire Line
 Wire Wire Line
 	5902 2838 5902 2807
 Wire Wire Line
-	7113 2838 5902 2838
+	6585 2838 5902 2838
 Wire Wire Line
-	7113 3276 7113 2838
+	6585 3276 6585 2838
 Wire Wire Line
 	7132 3276 7113 3276
-Wire Wire Line
-	7349 3278 7186 3278
-Wire Wire Line
-	7349 2750 7349 3278
-Wire Wire Line
-	5872 2750 7349 2750
-Wire Wire Line
-	5872 3735 5872 2750
-Wire Wire Line
-	4899 3735 5872 3735
-Wire Wire Line
-	4899 3855 4899 3735
 Wire Wire Line
 	4866 3855 4899 3855
 Wire Wire Line
@@ -247,6 +213,60 @@ F 1 "RGB_LED" V 4778 4173 20  0000 L CNN
 F 2 "" H 4510 4305 50  0001 C CNN
 F 3 "" H 4510 4305 50  0001 C CNN
 	1    4485 4305
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino~Kartları:ArduinoUnoR3 .
+U 1 1 609B126E
+P 5985 4355
+F 0 "." H 7330 5126 50  0000 L CNN
+F 1 "ArduinoUnoR3" H 7330 5035 50  0000 L CNN
+F 2 "" H 6735 5180 50  0001 C CNN
+F 3 "" H 6735 5180 50  0001 C CNN
+	1    5985 4355
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5819 3732 5819 3197
+Wire Wire Line
+	5819 3197 6245 3197
+Wire Wire Line
+	6245 3197 6245 3162
+Wire Wire Line
+	6245 3162 6272 3162
+Wire Wire Line
+	6272 3162 6272 3124
+Wire Wire Line
+	6272 3124 6247 3124
+Wire Wire Line
+	6247 3124 6247 3099
+Wire Wire Line
+	6247 3099 6556 3099
+Wire Wire Line
+	6556 3099 6556 3119
+Wire Wire Line
+	6556 3119 6604 3119
+Wire Wire Line
+	6604 3119 6604 3104
+Wire Wire Line
+	6604 3104 6651 3104
+Wire Wire Line
+	6651 3281 6635 3281
+Wire Wire Line
+	6651 3104 6651 3281
+Wire Wire Line
+	4898 3732 5819 3732
+Wire Wire Line
+	4899 3855 4899 3735
+$Comp
+L Bluetooth:HC05 .2
+U 1 1 609A3B43
+P 4435 3905
+F 0 ".2" H 4435 3855 50  0000 L CNN
+F 1 "HC05" H 4385 3905 20  0000 L CNN
+F 2 "" H 4435 3905 50  0001 C CNN
+F 3 "" H 4435 3905 50  0001 C CNN
+	1    4435 3905
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
